@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: rgb(54,77,204); 
+    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(0,14,94,1) 100%);
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social img {
+    width: 33px;
+}
+
+.links-list { 
+    list-style: none; /* Serviu para retirar as bolinhas das listas */
+}
+
+.links-list li {
+    margin: 10px 20px;
+}
+
+.links-list li a {
+    display: block; /* Quando um texto é criado ele naturalmente ficará in line, ou seja, ele seguirá linearmente pela página. Esta regra faz com que o conteúdo seja renderizado como bloco. Sem esta tag, caso queira direcionar o texto para um lugar desejado isso não será possível, pois só colocando em bloco tal conteúdo poderá ser reposicionado. */
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 0 20px white;
+    padding: 15px 20px;
+    text-decoration: none; /* Serve para retirar o sublinhado da tag de link */
+    color: rgb(54,77,204);
+    font-weight: bold;
+}
+
+.links-list li a span {
+    color: gray;
+    display: block;
+    margin-top: 10px;
+}
